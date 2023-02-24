@@ -18,7 +18,7 @@ int main()
    time(&now); /* get current time; same as: now = time(NULL)  */
    newyear = *localtime(&now);
    newyear.tm_hour = 11;
-   newyear.tm_min = 36;
+   newyear.tm_min = 45;
    newyear.tm_sec = 0;
    /*newyear.tm_mon = 0;
    newyear.tm_mday = 1;*/

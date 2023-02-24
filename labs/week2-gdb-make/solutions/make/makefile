@@ -2,7 +2,7 @@ CC=gcc
 objects = main.o areaOfRectangle.o areaOfSquare.o areaOfCircle.o area_of_triangle.o 
 headers = areaOfRectangle.h areaOfSquare.h areaOfCircle.h area_of_triangle.h 
 
-myprog : $(objects)
+prog : $(objects)
 	$(CC) -o areaProg $(objects) -lm
 
 main.o : main.c $(headers)

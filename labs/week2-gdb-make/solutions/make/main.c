@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include<math.h>
-
+#include <math.h>
+#include "areaOfRectangle.h"
 
 int main( int argc, char *argv[] )  {
    int aor;

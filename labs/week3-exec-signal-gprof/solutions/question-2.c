@@ -14,7 +14,7 @@ int main()
         exit(127); /* only if execv fails */
     }
     else { /* pid!=0; parent process */
-        printf("The parent keeps doing whats its doign!!");
+        printf("The parent keeps doing whats its doing!!");
 	    sleep(3);
     }
     return 0;
